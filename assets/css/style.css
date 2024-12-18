@@ -277,6 +277,7 @@ main {
     }
 }
 
+/* TODO: add media query for a max-width of 768px */
 @media screen and (max-width: 786px) {
     header {
         padding: 0 0 10px 0;
@@ -310,4 +311,3 @@ main {
     }
 }
 
-/* TODO: add media query for a max-width of 768px */
