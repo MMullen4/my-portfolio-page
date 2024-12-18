@@ -222,25 +222,62 @@ main {
 /* portfolio project images */
 /* TODO: Add portfolio project images here using background images*/
 .run-buddy {
-    background-image: url("../myImages/image1.jpg");
+    background-image: url("../myImages/image6.jpg");
 }
 
 .led-wall {
-
+    background-image: url("../myImages/image2.jpg");
 }
 
 .react-calc {
-    
+    background-image: url("../myImages/image3.jpg")
 }
 
-.pastel-puzzles {}
+.pastel-puzzles {
+    background-image: url("../myImages/image4.jpg")
+}
 
-.surf-report {}
+.surf-report {
+    background-image: url("../myImages/image5.jpg")
+}
 
 /* media queries */
 
 /* media queries for a max-width of 980px */
 @media screen and (max-width: 980px) {
+    header {
+        padding: 0 0 10px 0;
+        justify-content: center;
+        text-align: center;
+    }
+
+    header h1 {
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 10px;
+        font-size: 10vw;
+    }
+
+    header nav {
+        justify-content: center;
+    }
+
+    .page-section>h2,
+    .page-section>div {
+        flex: 0 0 100%;
+    }
+
+    .page-section>h2 {
+        border-right: none;
+        border-bottom: 4px solid var(--primary);
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        text-align: left;
+        font-size: 7vw;
+    }
+}
+
+@media screen and (max-width: 786px) {
     header {
         padding: 0 0 10px 0;
         justify-content: center;
