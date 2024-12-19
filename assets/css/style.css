@@ -283,16 +283,13 @@ main {
         padding: 0 0 10px 0;
         justify-content: center;
         text-align: center;
-        min-height: auto;
-
     }
 
     header h1 {
         width: 100%;
         padding: 5px;
         margin-bottom: 10px;
-        font-size: 5vw;
-        min-height: auto;
+        font-size: 8vw;
     }
 
     header nav {
@@ -302,7 +299,6 @@ main {
     .page-section>h2,
     .page-section>div {
         flex: 0 0 100%;
-        min-height: 5vw;
     }
 
     .page-section>h2 {
@@ -311,7 +307,7 @@ main {
         margin-bottom: 20px;
         padding-bottom: 10px;
         text-align: left;
-        font-size: 5vw;
+        font-size: 7vw;
     }
 }
 
