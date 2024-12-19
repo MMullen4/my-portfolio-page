@@ -174,7 +174,7 @@ main {
 
 /* feature first portfolio item */
 .flex-item:first-child {
-    min-height: 400px;
+    min-height: 300px;
     flex-basis: 100%;
 }
 
@@ -191,7 +191,7 @@ main {
     font-size: 1.6rem;
 }
 
-.contact address {
+.address {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -199,7 +199,7 @@ main {
     height: 100%;
 }
 
-.contact address a {
+.address a {
     color: var(--tertiary);
     padding: 5px;
     text-decoration: none;
@@ -214,7 +214,7 @@ main {
     display: inline-block;
 }
 
-.contact address a:hover {
+.address a:hover {
     background-size: 100% 88%;
     color: var(--secondary);
 }
@@ -308,6 +308,15 @@ main {
         padding-bottom: 10px;
         text-align: left;
         font-size: 7vw;
+    }
+    .flex-item h3 {
+       font-size: medium; 
+    }
+    .hero-banner h2 {
+        font-size: medium;
+    }
+    .address h2 {
+        font-size: medium;
     }
 }
 
